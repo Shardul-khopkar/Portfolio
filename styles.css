@@ -27,7 +27,7 @@ html, body {
 }
 
 .navbar {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
@@ -35,10 +35,8 @@ html, body {
 }
 
 body {
-  padding-top: 76px;
-}
-
-body {
+    z-index: 70;
+    padding-top: 76px;
     font-family: 'Courier New', monospace;
     line-height: 1.6;
     color: #000000;
