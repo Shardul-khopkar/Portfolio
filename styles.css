@@ -45,6 +45,10 @@ body {
 
 /* Bootstrap Navigation Override */
 .navbar {
+    position: fixed !important;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
     background: #add8e6 !important;
     border-bottom: 3px solid #000000 !important;
     image-rendering: pixelated;
